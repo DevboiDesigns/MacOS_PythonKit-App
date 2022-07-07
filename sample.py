@@ -1,2 +1,11 @@
+from re import A
+
+
 def hello():
-  return "Hello from python"
+  return "Hello Swift, from python"
+
+def swap(a, b):
+  a, b = b, a
+  return a, b
+
+
