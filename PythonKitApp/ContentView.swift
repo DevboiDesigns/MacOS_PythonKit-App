@@ -12,6 +12,7 @@ import PythonKit
 struct ContentView: View {
     
     let dirPath: String = "/Users/omboi/Xcode/PythonKitApp/"
+    let sys = Python.import("sys")
     
     @State private var result: String = ""
     
@@ -21,7 +22,7 @@ struct ContentView: View {
     @State private var swapA: Int = 2
     @State private var swapB: Int = 3
     
-    let sys = Python.import("sys")
+   
     
     var body: some View {
         VStack {

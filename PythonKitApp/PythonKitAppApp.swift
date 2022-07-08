@@ -11,7 +11,7 @@ import SwiftUI
 struct PythonKitAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ScraperView()
         }
     }
 }
